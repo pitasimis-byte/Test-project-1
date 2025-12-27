@@ -18,3 +18,5 @@ python -m src.note_app list
 - `clear` — remove all notes
 
 The CLI stores notes in `notes.json` in the project root. If you don't want this file tracked in Git, add it to `.gitignore` (already included in this repo by default).
+
+**PR demo:** this line was added in `feature/pr-demo` to illustrate a small change for creating a pull request as a demo.
