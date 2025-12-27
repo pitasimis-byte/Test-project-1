@@ -121,7 +121,7 @@ python -m src.note_app list
 4. Run tests (no external deps):
 
 ```powershell
-python -m unittest discover -v
+python -m unittest discover -v -s tests
 ```
 
 Next steps:
