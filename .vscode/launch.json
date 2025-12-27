@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Notes CLI (module)",
+      "type": "python",
+      "request": "launch",
+      "module": "src.note_app",
+      "console": "integratedTerminal",
+      "args": []
+    },
+    {
+      "name": "Run Tests (unittest)",
+      "type": "python",
+      "request": "launch",
+      "module": "unittest",
+      "args": ["discover", "-v", "-s", "tests"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
